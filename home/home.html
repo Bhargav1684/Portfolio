@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bhargav's Portfolio</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <button id="backToTop" title="Back to Top">&#8679;</button>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Bhargav</div>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+            </div>
+            <a href="#contact" class="contact-btn desktop-only">Contact</a>
+            <button class="menu-toggle mobile-only" id="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+ 
+    <!-- Sidebar for Mobile -->
+    <div id="sidebar" class="sidebar sidebar-hidden">
+        <div class="sidebar-header">
+            <span class="sidebar-logo">Bhargav</span>
+            <button id="close-sidebar" class="close-sidebar">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="sidebar-contact-btn">Contact</a>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay hidden"></div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="content animate">
+                <h1>Hello, I'm <span>Bhargav</span></h1>
+                <h2>Frontend Developer</h2>
+
+                <div class="social-links">
+                    <div class="row">
+                        <a href="mailto:panchalbhargav1111@gmail.com"><i class="fas fa-envelope"></i>
+                            panchalbhargav1111@gmail.com</a>
+                        <a href="tel:+919054417852"><i class="fas fa-phone"></i> +91 90544 17852</a>
+                    </div>
+                    <div class="row">
+                        <a href="https://www.linkedin.com/in/bhargav" target="_blank"><i class="fab fa-linkedin"></i>
+                            linkedin.com/in/bhargavpanchal</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> Mehsana, India</a>
+                    </div>
+                </div>
+
+                <div class="download-btn-container">
+                    <a href="" class="download-btn" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+
+            <div class="image animate">
+                <img src="../image/ac20ed1a-1eaa-4097-b07a-d245aa04fe7d.jpeg"
+                    alt="Portrait of Bhargav Panchal, frontend developer" />
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate frontend developer seeking opportunities to enhance my skills in a dynamic
+                    environment.
+                    I am eager to contribute to innovative projects and grow professionally in the tech industry.
+                </p>
+            </div>
+
+            <div class="experience-content">
+                <h2>Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Internship</h3>
+                            <span>Epitome Corporation PVT LTD • Jun 2024 – Present</span>
+                            <p>Developed responsive web pages using HTML, CSS, and basic React.js.<br>
+                                Participated in front-end development and design discussions.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Key Responsibilities</h3>
+                            <span>Epitome Corporation PVT LTD</span>
+                            <p>Live streaming and event management,<br>
+                                Client communication & team collaboration.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education-section" id="education">
+        <div class="education-container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>S.S.C. (GSEB)</h3>
+                        <p>Para High Secondary School, 2018</p>
+                        <p>Mehsana, India</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>H.S.C. (GHSCB)</h3>
+                        <p>Para High Secondary School, 2020</p>
+                        <p>Mehsana, India</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Application (BCA)</h3>
+                        <p>Shree Sarvajanik BCA & PGDCA College, 2024</p>
+                        <p>Mehsana, India</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Additional Certificates</h3>
+                        <p>Course on Computer Concepts, Common Civil Code, Cash Conversion Cycle</p>
+                        <p>Sain India Institute</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="skills-container">
+            <h2>Technical Skills</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Key Skills</h3>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Libraries & Frameworks</h3>
+                        <ul class="skill-list">
+                            <li>React.js</li>
+                            <li>Tailwind CSS</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Tools & Technologies</h3>
+                        <ul class="skill-list">
+                            <li>VS Code</li>
+                            <li>GitHub</li>
+                            <li>ChatGPT</li>
+                            <li>Chrome Extensions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="https://cdn-icons-png.flaticon.com/128/14062/14062234.png" alt="Fresh Mart Project"
+                            class="project-img">
+                        <h3 class="project-title">FreshMart.com</h3>
+                        <p class="project-desc">
+                            A responsive e-commerce platform with secure checkout, product pages, and backend tools.
+                        </p>
+                        <a href="https://github.com/yourusername/fresh-mart" class="project-link" target="_blank">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <img src="https://bhargav1684.github.io/Course-hub/home/icon.png" alt="Course Hub Project"
+                            class="project-img">
+                        <h3 class="project-title">CourseHub.org</h3>
+                        <p class="project-desc">
+                            Online learning platform with course browsing, registration, videos, quizzes, and progress
+                            tracking.
+                        </p>
+                        <a href="https://bhargav1684.github.io/Course-hub/home/index.html" class="project-link"
+                            target="_blank">
+                            View Project →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Contact</h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="contact-title"><i class="fas fa-map-marker-alt"></i> Address</h3>
+                        <p>C 111 Avdhut Ro-house behind Sai tample, Lakhvad Road, Mehsana-384001</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="contact-title"><i class="fas fa-phone"></i> Call Us</h3>
+                        <p>+91 90544 17852</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 class="contact-title"><i class="fas fa-envelope"></i> Email</h3>
+                        <p>panchalbhargav1111@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Declaration Section -->
+    <section class="declaration-section" id="declaration">
+        <div class="declaration-container">
+            <h2>Declaration</h2>
+            <div class="declaration-content">
+                <p>
+                    I hereby declare that all statements made in this portfolio are true, complete, and correct to the
+                    best of my knowledge and belief.
+                </p>
+                <p class="signature"><strong>– Panchal Bhargav</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer-container">
+        <footer class="footer">
+            <p>&copy; Copyright My Portfolio All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="home.js" defer></script>
+</body>
+
+</html>
